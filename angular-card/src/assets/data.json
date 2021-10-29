@@ -1,0 +1,13 @@
+
+
+ [
+    { "BankName": "INDIAN BANK", "AccountNo": "45567899999999999", "CreditCardNo":"1111 1111 1111 1111 "},
+    { "BankName": "CITY UNION BANK", "AccountNo": "87654444444444444", "CreditCardNo":"2222 2222 2222 2222 "},
+    { "BankName": "STATE BANK", "AccountNo": "99976544442222245", "CreditCardNo":"3333 3333 3333 3333"},
+    { "BankName": "AXIS BANK", "AccountNo": "56332222222222222", "CreditCardNo":"4444 4444 4444 4444"},
+    { "BankName": "INDIAN OVESEAS BANK", "AccountNo": "35657677777877777", "CreditCardNo":"5555 5555 5555 5555 "},
+    { "BankName": "KARUR VISIA BANK", "AccountNo": "56980254444444444", "CreditCardNo":"6666 6666 6666 6666 "}
+
+]
+
+
