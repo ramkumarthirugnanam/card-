@@ -135,10 +135,8 @@ export class AddCardComponent implements OnInit {
   keytab(e: any) {
     var target = e.srcElement || e.target;
     var maxLength = parseInt(target.attributes['maxlength'].value, 10);
-    console.log('maxLength ...', maxLength);
 
     var myLength = target.value.length;
-    console.log('myLength ...', myLength);
 
     if (myLength >= maxLength) {
       var next = target;
@@ -152,9 +150,7 @@ export class AddCardComponent implements OnInit {
     }
 
     if (myLength === 0) {
-      console.log('myLength. backspace...', myLength);
       var previous = target;
-      console.log('previous...', previous);
 
       while ((previous = previous.previousElementSibling)) {
         if (previous == null) break;
