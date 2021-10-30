@@ -37,19 +37,19 @@
                 <label for="Credit Card No">Credit Card No</label>
                 <div class="row md-form mb-4 ">
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <input class="col-md-2" id="cardnum1" formControlName="cardnum1"  (keyup)="keytab($event)"  maxlength="4" (keypress)="numberOnly($event)"   
-                    name="cardnum1">&nbsp;&nbsp;&nbsp;
-                  <input class="col-md-2" id="cardnum2" formControlName="cardnum2"   (keyup)="keytab($event)"  maxlength="4" (keypress)="numberOnly($event)" 
-                    name="cardnum2">&nbsp;&nbsp;&nbsp;
-                  <input class="col-md-2" id="cardnum3" formControlName="cardnum3"   (keyup)="keytab($event)"  maxlength="4" (keypress)="numberOnly($event)"  
-                    name="cardnum3">&nbsp;&nbsp;&nbsp;
-                  <input class="col-md-2" id="cardnum4" formControlName="cardnum4"   (keyup)="keytab($event)"   maxlength="4" (keypress)="numberOnly($event)" 
-                    name="cardnum4">&nbsp;&nbsp;&nbsp;
+                  <input class="Box" id="cardnum1" formControlName="cardnum1"  (keyup)="keytab($event)"  maxlength="4" (keypress)="numberOnly($event)"   
+                    name="cardnum1">&nbsp;&nbsp;
+                  <input class="Box" id="cardnum2" formControlName="cardnum2"   (keyup)="keytab($event)"  maxlength="4" (keypress)="numberOnly($event)" 
+                    name="cardnum2">&nbsp;&nbsp;
+                  <input class="Box" id="cardnum3" formControlName="cardnum3"   (keyup)="keytab($event)"  maxlength="4" (keypress)="numberOnly($event)"  
+                    name="cardnum3">&nbsp;&nbsp;
+                  <input class="Box" id="cardnum4" formControlName="cardnum4"   (keyup)="keytab($event)"   maxlength="4" (keypress)="numberOnly($event)" 
+                    name="cardnum4">
                     <div *ngIf="this.maxLength" class="invalid-feedback"
                     style="font-size: 15px;">
                     <div *ngIf="this.maxLength">Credit Card Number is required</div>
 
-  </div>
+                   </div>
                 </div>
               </div>
             </div>
