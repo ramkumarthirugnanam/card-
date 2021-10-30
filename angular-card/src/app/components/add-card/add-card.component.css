@@ -128,4 +128,18 @@ input.form-control.rounded {
   background-color: #3b5998;
 }
 
+.Box:focus {
+  border: thin solid #FFD633;
+  -webkit-box-shadow: 0px 0px 3px #F7BB2E;
+  -moz-box-shadow: 0px 0px 3px #F7BB2E;
+  box-shadow: 0px 0px 3px #F7BB2E;
+}
+.Box {
+  height: 27px;
+  width: 20%;
+  text-align: justify;
+  letter-spacing: 5px;
+  padding: 10px;
+}
+
 
